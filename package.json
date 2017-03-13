@@ -1,0 +1,28 @@
+{
+  "name": "ng2-zoomable",
+  "version": "1.0.0",
+  "description": "Angular2 Image Zoom View",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "image",
+    "zoom"
+  ],
+  "author": "Moe Hosseini",
+  "license": "MIT",
+  "typings": "./ng2-zoomable.d.ts",
+  "dependencies": {
+    "@angular/core": "^2.3.1",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.2.0",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "rxjs": "^5.2.0",
+    "typescript": "^2.2.1"
+  }
+}
