@@ -13,6 +13,9 @@
     "files": [
         "ng2-zoomable.ts"
     ],
+    "include": [
+        "demo/*"
+    ],
     "exclude": [
         "node_modules"
     ]
