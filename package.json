@@ -2,7 +2,7 @@
   "name": "ng2-zoomable",
   "version": "0.1.0",
   "description": "Angular2 Image Zoom View",
-  "main": "index.js",
+  "main": "ng2-zoomable.js",
   "scripts": {
     "prepublish": "tsc",
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
