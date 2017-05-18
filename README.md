@@ -9,13 +9,15 @@ $ npm install ng2-zoomable --save
 ```
 
 ## Demo
+Online demo is available on <a href="https://moeishaa.github.io/ng2-zoomable/">repo's GitHub Pages</a>. There will be a more sophisticated demo page sometime in future :)
+
 To run a local demo, first clone/download this repo and then inside local directory:
 
 ```bash
 $ npm install
-$ npm start
+$ npm run demo
 ```
-This will install all dependencies, and launch a local lite server to run the demo on.
+After installation is over, load http://localhost:8080/ in your browser.
 
 ## Examples
 First, import the ZoomableDirective directive:
