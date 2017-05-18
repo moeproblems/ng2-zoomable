@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
 
+const img1 = require('./assets/thumbnail.jpg');
+const img2 = require('./assets/thumbnail2.jpg');
+
 @Component({
-  moduleId: module.id,
   selector: 'my-app',
   styles: [`
     img {
@@ -25,6 +27,6 @@ import { Component } from '@angular/core';
   `
 })
 export class AppComponent {
-  imageSource1 = '/demo/assets/thumbnail.jpg';
-  imageSource2 = '/demo/assets/thumbnail2.jpg';
+  imageSource1 = img1;
+  imageSource2 = img2;
 }

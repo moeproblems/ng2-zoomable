@@ -4,5 +4,7 @@ npm-debug.log
 Thumbs.db
 .DS_Store
 *.js
+!webpack.config.js
 *.map
 *.d.ts
+dist
